@@ -16,6 +16,8 @@ dependencies:
   connectivity_plus: ^6.0.3
   flutter_bloc: ^8.1.5
   shared_preferences: ^2.2.3
+  dio: ^5.4.3+1
+  flutter_login_facebook: ^2.0.0
 
 dev_dependencies:
   flutter_test:
