@@ -11,6 +11,6 @@ extension DateTimeExtension on DateTime {
     if (locale != null && locale.isNotEmpty) {
       initializeDateFormatting(locale);
     }
-    return DateFormat(Pattern, locale).format(this);
+    return DateFormat(Pattern as String?, locale).format(this);
   }
 }
