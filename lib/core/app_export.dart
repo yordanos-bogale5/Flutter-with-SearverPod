@@ -1,5 +1,5 @@
-export 'package: connectivity_plus/connectivity_plus';
-export 'package:flutter_bloc/flutter/bloc';
+export 'package: connectivity_plus/connectivity_plus.dart';
+export 'package:flutter_bloc/flutter/bloc.dart';
 export 'package:virtual/core/errors/exception.dart';
 export 'package:virtual/core/network/network_info.dart';
 export 'package:virtual/core/utils/image_contant.dart';
