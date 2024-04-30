@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 import 'package:virtual/core/utils/size_utils.dart';
 
@@ -14,10 +13,10 @@ class CustomTextStyles {
         fontSize: 10.fSize,
       );
   static get bodySmall1OnPrimary => theme.textTheme.bodySmall!.copyWith(
-        color: theme.colorScheme.Primary.withOpacity(1),
+        color: theme.colorScheme.primary.withOpacity(1),
       );
   static get bodySmall1OnPrimary10 => theme.textTheme.bodySmall!.copyWith(
-        color: theme.colorScheme.Primary.withOpacity(1),
+        color: theme.colorScheme.primary.withOpacity(1),
         fontSize: 10.fSize,
       );
   static get bodySmall1OnPrimaryContainer =>
@@ -41,7 +40,7 @@ class CustomTextStyles {
   //HEADLINE TEXT STYLE
 
   static get headlineSmallOnPrimary => theme.textTheme.bodySmall!.copyWith(
-        color: theme.colorScheme.Primary.withOpacity(1),
+        color: theme.colorScheme.primary.withOpacity(1),
       );
   //label text style
   static get labelLargeBluegray300 => theme.textTheme.labelLarge!.copyWith(
@@ -50,10 +49,10 @@ class CustomTextStyles {
   static get labelLargeBluegray300SemiBold =>
       theme.textTheme.labelLarge!.copyWith(
         color: appTheme.blueGray300,
-        FontWeight: FontWeight.w600,
+        fontWeight: FontWeight.w600,
       );
   static get labelLargeIndigoA200 => theme.textTheme.labelLarge!.copyWith(
-        color: appTheme.IndigoA200,
+        color: appTheme.indigoA200,
       );
   static get labelLargeOnPrimary => theme.textTheme.labelLarge!.copyWith(
         color: theme.colorScheme.onPrimary,
@@ -62,7 +61,7 @@ class CustomTextStyles {
       theme.textTheme.labelLarge!.copyWith(
         color: theme.colorScheme.onPrimaryContainer.withOpacity(1),
       );
-  static get labelLargeOnPrimary => theme.textTheme.labelLarge!.copyWith(
+  static get labelLargePrimary => theme.textTheme.labelLarge!.copyWith(
         color: theme.colorScheme.onPrimary.withOpacity(1),
       );
   static get labelLargeff40bfff => theme.textTheme.labelLarge!.copyWith(
@@ -73,7 +72,7 @@ class CustomTextStyles {
       );
   static get labelLargeMediumBluegray300 =>
       theme.textTheme.labelMedium!.copyWith(
-        color: appTheme.blueGrey300,
+        color: appTheme.blueGray300,
       );
   static get labelMediumOnPrimaryContainer =>
       theme.textTheme.labelMedium!.copyWith(
@@ -111,7 +110,7 @@ class CustomTextStyles {
         color: appTheme.pink300,
       );
   static get titleSmallPrimary => theme.textTheme.titleMedium!.copyWith(
-        color: theme.colorScheme.Primary.withOpacity(1),
+        color: theme.colorScheme.primary.withOpacity(1),
       );
   static get titleSmall_1 => theme.textTheme.titleSmall!;
 }
