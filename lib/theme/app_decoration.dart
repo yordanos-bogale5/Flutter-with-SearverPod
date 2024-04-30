@@ -14,7 +14,7 @@ class AppDecoration {
         color: theme.colorScheme.onPrimaryContainer.withOpacity(1),
       );
   static BoxDecoration get fillPrimary => BoxDecoration(
-        color: theme.colorScheme.Primary.withOpacity(1),
+        color: theme.colorScheme.primary.withOpacity(1),
       );
   // outline decorations
   static BoxDecoration get outlineBlue => BoxDecoration(
@@ -42,7 +42,7 @@ class AppDecoration {
       );
 }
 
-class BorderRadius {
+class BorderRadiusStyle {
   //circle borders
   static BorderRadius get circleBorder12 => BorderRadius.circular(
         12.h,

@@ -6,7 +6,7 @@ import 'package:virtual/core/app_export.dart';
 class CustomButtonStyle {
 //filled bitton style
   static ButtonStyle get fillPrimary => ElevatedButton.styleFrom(
-        backgroundColor: theme.colorScheme.Primary.withOpacity(1),
+        backgroundColor: theme.colorScheme.primary.withOpacity(1),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.horizontal(
             right: Radius.circular(5.h),
