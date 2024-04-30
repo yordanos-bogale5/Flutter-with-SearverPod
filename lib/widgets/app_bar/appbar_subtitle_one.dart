@@ -1,8 +1,10 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:flutter/material.dart';
 import 'package:virtual/core/app_export.dart';
 
-class AppbarSubtitle extends StatelessWidget {
-  AppbarSubtitle({
+class AppbarSubtitleOne extends StatelessWidget {
+  AppbarSubtitleOne({
     Key? key,
     required this.text,
     this.margin,
@@ -29,7 +31,7 @@ class AppbarSubtitle extends StatelessWidget {
         child: Text(
           text,
           style: theme.textTheme.titleMedium!.copyWith(
-            color: theme.colorScheme.onPrimary.withOpacity(1),
+            color: appTheme.blueGray300,
           ),
         ),
       ),
