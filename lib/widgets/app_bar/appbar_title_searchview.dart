@@ -6,7 +6,7 @@ import 'package:virtual/core/app_export.dart';
 class AppbarTitleSearchView extends StatelessWidget {
   AppbarTitleSearchView({
     Key? key,
-    this.hintText,
+    this.hinttext,
     this.controller,
     this.margin,
   }) : super(
@@ -19,7 +19,7 @@ class AppbarTitleSearchView extends StatelessWidget {
 
   EdgeInsetsGeometry? margin;
 
-  Function onTap;
+
 
   @override
   Widget build(BuildContext context) {
